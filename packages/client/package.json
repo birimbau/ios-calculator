@@ -1,0 +1,87 @@
+{
+  "name": "@my-namespace/client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/runtime": "^7.15.4",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
+    "@types/enzyme": "^3.10.11",
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.29",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-test-renderer": "^17.0.1",
+    "@types/styled-components": "^5.1.15",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "babel-jest": "^27.2.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-react-remove-properties": "^0.3.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.4.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.4.7",
+    "jsdom": "^18.0.0",
+    "jsdom-global": "^3.0.2",
+    "lint-staged": "^11.2.3",
+    "mobx": "^6.3.5",
+    "mobx-react": "^7.2.1",
+    "prettier": "^2.5.1",
+    "react-refresh": "^0.10.0",
+    "react-test-renderer": "^17.0.2",
+    "style-loader": "^3.3.0",
+    "styled-components": "^5.3.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5",
+    "webpack": "^5.58.2",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
+    "test": "jest --passWithNoTests"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
